@@ -1,10 +1,6 @@
 (function( root, $, undefined ) {
-    "use strict";
 
-    $(function () {
-        // DOM ready, take it away
-    // TweenMax.to("body",1,{xPercent: 10});
-    // Animations for the Top Slideout Nav
+// Animations for the Top Slideout Nav
     var overlay = document.getElementById('overlay'),
     oNav = document.getElementById('oNav');
 
@@ -13,9 +9,9 @@
     menu
     .to('#nav-icon',.0, {className:"+=open"})
     .to(overlay,.5,{autoAlpha: 1, ease: Power4.easeIn})
-    .to(oNav, .75, {xPercent: 50});
+    .to(oNav, .5, {xPercent: 50});
 // Menu Toggle
-function menuToggle() {
+function menuToggle() { 
   menu.reversed() ? menu.play() : menu.reverse();
 
 }
@@ -45,7 +41,10 @@ function menuToggle() {
           scrollTop: $(hash).offset().top
         }, 950, function(){
 
-          menu.reverse();
+          if ($('#nav-icon').hasClass('open')) {
+            menu.reverse();
+          }
+
           window.location.hash = hash;
 
         });
@@ -54,7 +53,7 @@ function menuToggle() {
     } // End if
 
   });
-});
+  
 
   $(window).scroll(function() {    
     var scroll = $(window).scrollTop();

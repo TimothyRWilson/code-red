@@ -148,10 +148,10 @@ function kompitech_header_scripts() {
 
 // Load KompiTech conditional scripts
 function kompitech_conditional_scripts() {
-    if ( is_home(  ) ) {
-        // Conditional script(s)
+    // Conditional script(s)
         wp_register_script( 'tweenMax', get_template_directory_uri() . '/js/lib/TweenMax.min.js', array(  ), '1.0.0', false );
         wp_enqueue_script( 'tweenMax' );
+    if ( is_home(  ) ) {
         // wp_register_script( 'EasePack', get_template_directory_uri() . '/js/lib/EasePack.min.js', array(  ), '1.0.0' );
         // wp_enqueue_script( 'EasePack' );
 

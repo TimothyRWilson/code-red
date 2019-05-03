@@ -8775,6 +8775,8 @@ select.selectpicker {
         .header #overlay .o-nav-links a:hover {
           text-decoration: none;
           color: #20d6f5; }
+    .header #overlay #oNav {
+      left: 100%; }
 
 main {
   padding-top: 55px; }
@@ -9773,7 +9775,7 @@ section {
   #aboutUs a {
     color: #20d6f5; }
   #aboutUs .hero {
-    background-image: url("/assets/images/contact.jpg");
+    background-image: url("img/contact.jpg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;

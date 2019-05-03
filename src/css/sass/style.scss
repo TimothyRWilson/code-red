@@ -1,0 +1,19 @@
+@import "modules/variables";
+
+@import "bootstrap";
+//@import "fontawesome";
+//@import "brands";
+//@import "solid";
+//@import "regular";
+
+
+@import "modules/globals";
+//@import "modules/mixins";
+//@import "modules/fonts";
+@import "../../../node_modules/bootstrap-select/sass/bootstrap-select";
+
+@import "partials/header";
+@import "partials/footer";
+@import "partials/home";
+@import "partials/subpages";
+

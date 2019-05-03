@@ -1,0 +1,111 @@
+
+
+
+// Colors
+$link-color: #fff;
+$text-color: #4C5151;
+$head-color: #0b0056;
+$white: #fff;
+$black: #0c0c0c;
+$kompiblue: rgb(32,214,245);
+$muted-gray: #282828;
+$muted-blue: #4C628F;
+$kompipurple: #20136b;
+$kompipurpler: #261e7f;
+$purple:  #1c1081;
+$deepblue:  rgb(28,16,129);
+$unrealblue:  rgb(15,59,223);
+$sectionblue: #283684;
+$containerblue: rgb(39,54,174);
+$teal: #45dfff;
+$blueyblue: #234aca;
+$anotherblue: #0e3bdf;
+
+
+$view-height: calc(100vh - 55px);
+$s1view-height: calc(100vh - 175px);
+// $s1view-height: calc(75vh - 175px);
+$eighty-vh: calc(80vh - 55px);
+$seventy-five-vh: calc(72vh - 55px);
+$half-view-height: calc(50vh - 55px);
+$quarter-view-height: calc(25vh - 55px);
+
+  // Fontawesome 5 config
+$fa-font-path: "fontawesome-free/webfonts";
+
+// Glyphicons font path
+// $icon-font-path: "../fonts/";
+
+// Theme
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1080px
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1400px
+);
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+$theme-colors: (
+  primary: $kompiblue,
+  secondary: #100100
+);
+
+$primary: map-get($map: $theme-colors, $key: "primary");
+$secondary: map-get($map: $theme-colors, $key: "secondary");
+
+// CUSTOM HELPER CLASSES
+
+.h-lg-100 {
+  @media (min-width: 992px) {
+    height: 100%!important;
+  }
+}
+
+
+
+.text-shadow {
+   color: #0d0056;
+   text-shadow: 1px 1px 0px #0d0056;
+}
+
+
+.kompiblue {
+  color: $kompiblue;
+}

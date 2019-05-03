@@ -1,0 +1,29 @@
+/**
+ * partials/footer
+ * ---
+ */
+footer {
+    height: 5rem;
+    background: #29282d;
+    font-family: 'Helvetica Neue', 'sans-serif';
+    position: relative;
+    z-index: 1;
+
+    a {
+        font-weight: 200;
+        color: #6c757d;
+    }
+
+    h6 {
+        font-weight: 300;
+        margin-right: 4px;
+    }
+
+    .social {
+
+        img {
+            width: 30px;
+
+        }
+    }
+}

@@ -59,7 +59,7 @@ gulp.task( "copy", function() {
 	return gulp.src([
 			"src/*.{php,png,css}",
 			"src/modules/*.php",
-			"src/img/**/*.{jpg,png,svg,gif,webp,ico}",
+			"src/img/**/*.{jpg,png,svg,gif,webp,ico,mp4}",
 			"src/fonts/*.{woff,woff2,ttf,otf,eot,svg}",
 			"src/languages/*.{po,mo,pot}",
 			"src/js/lib/*"

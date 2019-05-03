@@ -108,13 +108,29 @@ function kompitech_header_scripts() {
             // wp_enqueue_script( 'bootstrap' );
 
         if ( HTML5_DEBUG) {
+            wp_register_script(
+                'bootstrap',
+                get_template_directory_uri() . '/js/lib/bootstrap.min.js',
+                array(
+                    'jquery'
+                ),
+                '1.0.0', false );
+            wp_enqueue_script('bootstrap-select');
+            wp_register_script(
+                'bootstrap-select',
+                get_template_directory_uri() . '/js/lib/bootstrap-select.js',
+                array(
+                    'bootstrap'
+                ),
+                '1.0.0', false );
+            wp_enqueue_script('bootstrap-select');
             // Custom scripts
             wp_register_script(
                 'kompitechscripts',
                 get_template_directory_uri() . '/js/scripts.js',
-                // array(
-                //     'jquery'
-                // ),
+                array(
+                    'jquery'
+                ),
                 '1.0.0', true );
 
             // Enqueue Scripts
@@ -134,7 +150,7 @@ function kompitech_header_scripts() {
 function kompitech_conditional_scripts() {
     if ( is_home(  ) ) {
         // Conditional script(s)
-        wp_register_script( 'tweenMax', get_template_directory_uri() . '/js/lib/TweenMax.min.js', array(  ), '1.0.0' );
+        wp_register_script( 'tweenMax', get_template_directory_uri() . '/js/lib/TweenMax.min.js', array(  ), '1.0.0', false );
         wp_enqueue_script( 'tweenMax' );
         // wp_register_script( 'EasePack', get_template_directory_uri() . '/js/lib/EasePack.min.js', array(  ), '1.0.0' );
         // wp_enqueue_script( 'EasePack' );

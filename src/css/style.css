@@ -7688,11 +7688,9 @@ select.selectpicker {
         .header #overlay .o-nav-links a:hover {
           text-decoration: none;
           color: #20d6f5; }
-    .header #overlay #oNav {
-      left: 100%; }
 
 main {
-  padding-top: 55px; }
+  padding-top: 40px; }
 
 /*=====================================
 =            Media Queries            =
@@ -8441,7 +8439,7 @@ section {
   text-align: center;
   height: calc(50vh - 55px); }
   .sub-page #section-1.slewedBox {
-    background-image: url(/assets/images/contact-visual.png);
+    background-image: url(/img/contact-visual.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100;
@@ -8531,9 +8529,9 @@ section {
   padding-top: 2rem; }
 
 #manblock #section-1, #partners #section-1 {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/the-chart-watcher.png);
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/the-chart-watcher.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/the-chart-watcher.png); }
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/the-chart-watcher.png);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/the-chart-watcher.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/the-chart-watcher.png); }
 
 #manblock #section-2 .title-row, #partners #section-2 .title-row {
   margin-top: 5rem; }
@@ -8542,7 +8540,7 @@ section {
   color: #20d6f5; }
 
 #webinar #section-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/1-webinars.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/1-webinars.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px; }
@@ -8558,7 +8556,7 @@ section {
     padding: 15px; } }
 
 .sub-page .hero {
-  background-image: linear-gradient(rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0.25)), url("/assets/images/1samples/12-bg.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.75), rgba(12, 12, 12, 0.25)), url("img/g12-bg.jpg");
   height: 300px;
   color: #fff; }
   .sub-page .hero h1 {
@@ -8649,7 +8647,7 @@ section {
     min-height: 600px; } }
 
 .horlay-title {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../src/img/g12-bg.jpg") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("img/g12-bg.jpg") no-repeat;
   text-align: center;
   padding: 1rem 3rem;
   color: #fff; }
@@ -8695,7 +8693,7 @@ section {
       font-weight: 500; }
 
 .partners .verlay-title {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../src/img/the-chart-watcher.png") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("img/the-chart-watcher.png") no-repeat;
   background-position: center 57%;
   background-size: cover;
   min-height: 350px;

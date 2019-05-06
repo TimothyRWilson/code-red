@@ -78,7 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a class="kompi-text" href="https://portal.kompitech.com/tickets/ts/login/?next=/tickets/ts/dashboard_v2/"><span class="fas fa-user"></span></a>
           <?php else: ?>
 
-            <a class="kompi-text" href="/index.html">Home</a>
+            <a class="kompi-text" href="<?php echo esc_url( home_url() ); ?>">Home</a>
             <a class="kompi-text" href="/partners">Partner Ecosystem</a>
             <a class="kompi-text" href="https://medium.com/kompitech">Blog</a>
             <a class="kompi-text" href="https://portal.kompitech.com/tickets/ts/login/?next=/tickets/ts/dashboard_v2/"><span class="fas fa-user"></span></a>
@@ -119,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          <a class="kompi-text ml-lg-4 p-3" href="https://medium.com/kompitech">Blog</a>
          <a class="kompi-text ml-lg-4 p-3" href="https://portal.kompitech.com/tickets/ts/login/?next=/tickets/ts/dashboard_v2/"><span class="fas fa-user"></span></a>
          <?php else: ?>
-         <a class="kompi-text ml-lg-4 p-3" href="/index.html">Home</a>
+         <a class="kompi-text ml-lg-4 p-3" href="<?php echo esc_url( home_url() ); ?>">Home</a>
          <a class="kompi-text ml-lg-4 p-3" href="/partners">Partner Ecosystem</a>
          <a class="kompi-text ml-lg-4 p-3" href="https://medium.com/kompitech">Blog</a>
          <a class="kompi-text ml-lg-4 p-3" href="https://portal.kompitech.com/tickets/ts/login/?next=/tickets/ts/dashboard_v2/"><span class="fas fa-user"></span></a>

@@ -6,6 +6,7 @@
 
 
 .sub-page {
+
     #section {
         &-1 {
             color: white;
@@ -22,7 +23,7 @@
             }
 
             &.slewedBox {
-                background-image: url(/assets/images/contact-visual.png);
+                background-image: url(/img/contact-visual.png);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: 100;
@@ -159,9 +160,9 @@
 #manblock, #partners {
     #section {
         &-1 {
-            background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/the-chart-watcher.png);
-            background-image: -o-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/the-chart-watcher.png);
-            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/the-chart-watcher.png);
+            background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/the-chart-watcher.png);
+            background-image: -o-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/the-chart-watcher.png);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/the-chart-watcher.png);
         }
 
         &-2 {
@@ -179,7 +180,7 @@
 
     #section {
         &-1 {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/assets/images/1-webinars.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(/img/1-webinars.jpg);
             background-repeat: no-repeat;
             background-size: cover;
 
@@ -216,7 +217,7 @@
     }
 
     .hero {
-        background-image: linear-gradient(rgba($black, 0.75), rgba($black, 0.25)), url("/assets/images/1samples/12-bg.jpg");
+        background-image: linear-gradient(rgba($black, 0.75), rgba($black, 0.25)), url("img/g12-bg.jpg");
         height: 300px;
         color: #fff;
 
@@ -260,7 +261,7 @@
     }
 
     // .hero {
-    //     background-image: linear-gradient(rgba(white, 0.75), rgba(white, 0.5)), url("/assets/images/bg.jpg");
+    //     background-image: linear-gradient(rgba(white, 0.75), rgba(white, 0.5)), url("/img/bg.jpg");
     //     background-repeat: no-repeat;
     //     background-position: 0 0;
     //     background-size: cover;
@@ -373,8 +374,8 @@
 
 
 .horlay-title {
-    // background: linear-gradient(to right, rgba(#46d8fa, 0.25), rgba(#17a5d9, 0.25)), url("http://localhost:3001/assets/images/1samples/12-bg.jpg") center center no-repeat;
-    background: linear-gradient(to right, rgba(#000, 0.35), rgba(#000, 0.35)), url("../src/img/g12-bg.jpg") no-repeat;
+    // background: linear-gradient(to right, rgba(#46d8fa, 0.25), rgba(#17a5d9, 0.25)), url("http://localhost:3001/img/1samples/12-bg.jpg") center center no-repeat;
+    background: linear-gradient(to right, rgba(#000, 0.35), rgba(#000, 0.35)), url("img/g12-bg.jpg") no-repeat;
     text-align: center;
     padding: 1rem 3rem;
 
@@ -448,7 +449,7 @@
 
 .partners {
     .verlay-title {
-        background: linear-gradient(to right, rgba(#000, 0.35), rgba(#000, 0.35)), url("../src/img/the-chart-watcher.png") no-repeat;
+        background: linear-gradient(to right, rgba(#000, 0.35), rgba(#000, 0.35)), url("img/the-chart-watcher.png") no-repeat;
         background-position: center 57%;
         background-size: cover;
         min-height: 350px;

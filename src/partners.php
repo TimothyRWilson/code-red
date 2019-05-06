@@ -9,7 +9,7 @@
               Join our Partner Ecosystem
             </h2>
             <p class="text-center">
-             Join us in our ecosystem to unlock the potentials of the KompiTech Blockchain Platform leveraging valuable new relationships and channels, new business opportunities, business and strategic guidance, technical mentorship and resources, marketing support and a range of other opportunities.
+             Join us in our ecosystem to unlock the potentials of the KompiTech Blockchain Platform leveraging valuable new relationships and channels, new business opportunities, business and strategic guidance, technical mentor-ship and resources, marketing support and a range of other opportunities.
            </p>
            <div class="button-box col-12 justify-content-center d-flex">
              <a href="https://partners.kompitech.com/RequestAccess" class="btn btn-cta">

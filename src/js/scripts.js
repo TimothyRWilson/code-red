@@ -1,5 +1,6 @@
 (function( root, $, undefined ) {
 
+
 // Animations for the Top Slideout Nav
     var overlay = document.getElementById('overlay'),
     oNav = document.getElementById('oNav');

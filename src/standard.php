@@ -1,6 +1,6 @@
 <?php /* Template Name: Standard */ get_header(); ?>
 
-<main role="main" aria-label="Content" class="sub-page" id="">
+<main role="main" aria-label="Content" class="sub-page">
 	<!-- section -->
 	<section>
 <div class="container-fluid hero">
@@ -26,13 +26,6 @@
 				</div>
 				<!-- //row -->
 			</div>
-			//container
-
-
-
-
-
-
 
 
 		<?php endwhile; ?>
@@ -51,7 +44,5 @@
 		</section>
 		<!-- /section -->
 	</main>
-
-	<?php get_sidebar(); ?>
 
 	<?php get_footer(); ?>

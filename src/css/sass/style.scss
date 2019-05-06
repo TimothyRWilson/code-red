@@ -1,6 +1,6 @@
 @import "modules/variables";
 
-@import "bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 //@import "fontawesome";
 //@import "brands";
 //@import "solid";
@@ -17,3 +17,6 @@
 @import "partials/home";
 @import "partials/subpages";
 
+body {
+  // background: red;
+}

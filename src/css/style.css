@@ -7891,6 +7891,8 @@ footer {
               width: 92%;
               left: 4%;
               top: 17%; } }
+      .home #section-1 .bootstrap-select > .dropdown-toggle.bs-placeholder {
+        color: #fff; }
     .home #section-partners {
       padding-top: 20px;
       min-height: 180px;
@@ -8020,12 +8022,14 @@ footer {
         margin-bottom: 2rem; }
       .home #section-2 .application-suite {
         margin-bottom: 2rem; }
-    .home #section-integrations .integrations {
-      margin-top: 8rem; }
-    .home #section-integrations .row {
-      justify-content: center; }
-    .home #section-integrations img {
-      width: 60%; }
+    .home #section-integrations {
+      padding-bottom: 5rem; }
+      .home #section-integrations .integrations {
+        margin-top: 8rem; }
+      .home #section-integrations .row {
+        justify-content: center; }
+      .home #section-integrations img {
+        width: 60%; }
     .home #section-3 {
       background: #283684;
       color: #efefef;

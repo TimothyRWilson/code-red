@@ -1,6 +1,7 @@
 			<!-- footer -->
 			
 <footer>
+<a id="btt"><i class="fas fa-chevron-circle-up"></i></a>
     <div class="container-fluid h-100">
         <div class="row h-100 align-items-center justify-content-around text-left">
            <!--  <div class="col contact">
@@ -29,7 +30,7 @@
     </div>
     <!-- //.container-fluid -->
 </footer>
-<div class="container-fluid" style="background: #29282d; position: relative; z-index: 1">
+<div class="container-fluid" style="background: #29282d; position: relative; z-index: 0">
     <div class="row justify-content-center align-items-center text-muted">
             <p class="m-0 p-2"><small>&copy; KompiTech 2019</small></p>
         </div>

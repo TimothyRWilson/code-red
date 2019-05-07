@@ -1,4 +1,20 @@
 (function( root, $, undefined ) {
+    var btt = $('#btt');
+
+btt.css('display','block');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btt.addClass('show');
+  } else {
+    btt.removeClass('show');
+  }
+});
+
+btt.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 
 
 // Animations for the Top Slideout Nav
@@ -12,16 +28,16 @@
     .to(overlay,.5,{autoAlpha: 1, ease: Power4.easeIn})
     .to(oNav, .5, {xPercent: 50});
 // Menu Toggle
-function menuToggle() { 
+function menuToggle() {
   menu.reversed() ? menu.play() : menu.reverse();
 
 }
 
   // MENU NAVIMAGATION
   var navBtn = $("#nav-icon");
-  
+
   navBtn.on('click', function() {
-   menuToggle();        
+   menuToggle();
  });
 
   $("a").on('click', function(event) {
@@ -54,9 +70,9 @@ function menuToggle() {
     } // End if
 
   });
-  
 
-  $(window).scroll(function() {    
+
+  $(window).scroll(function() {
     var scroll = $(window).scrollTop();
       $("header").removeClass("header-show");
       $('.t-nav-links a').css('color','#fff');

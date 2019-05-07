@@ -249,6 +249,10 @@
                
                 }
             }
+
+            .bootstrap-select > .dropdown-toggle.bs-placeholder {
+                color: $white;
+            }
         }
 
         // END SECTION 1
@@ -509,9 +513,12 @@
             }
         }
 
+
         //END SECTION 2
 
         &-integrations {
+            padding-bottom: 5rem;
+
             .integrations {
                 margin-top: 8rem;
             }

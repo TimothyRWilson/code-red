@@ -179,8 +179,10 @@ $(document).click(function (e) {
 });
 
     $('.btn-cta').on('click', function(e) {
-        e.preventDefault();
-        TweenMax.to(formModal, 1, {display:'block',xPercent: 0, ease: Power2.easeOut});
+        if($(this).text() == 'Get Started') {
+            e.preventDefault();
+            TweenMax.to(formModal, 1, {display:'block',xPercent: 0, ease: Power2.easeOut});
+        }
     });
 
 

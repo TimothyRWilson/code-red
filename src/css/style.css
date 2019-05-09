@@ -8053,6 +8053,8 @@ footer {
             .home #section-1 .features img {
               width: 100% !important; } }
         .home #section-1 .features #featureVid {
+          visibility: hidden;
+          opacity: 0;
           position: absolute;
           width: 98%;
           left: 1%;
@@ -8406,6 +8408,7 @@ section {
 
 .kt-modal {
   position: fixed;
+  display: none;
   top: 55px;
   right: 0;
   overflow-y: scroll;

@@ -28,9 +28,10 @@
       <!-- //.col-md-12 -->
       <div class="features">
         <div class="video-container">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/rect840.png" alt="" class="img-fluid">
-          <video id="featureVid" src="<?php echo get_template_directory_uri(); ?>/img/platform3.mp4" type="video/mp4" class="img-fluid" autoplay="true" loop="true" muted="true">
+            <video style="" id="featureVid" src="<?php echo get_template_directory_uri(); ?>/img/platform3.mp4" type="video/mp4" class="" autoplay="true" loop="true" muted="true">
           </video>
+          <img src="<?php echo get_template_directory_uri(); ?>/img/rect840.png" alt="" class="img-fluid">
+        
           <script>
               document.getElementById('featureVid').play();
           </script>

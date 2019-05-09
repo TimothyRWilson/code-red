@@ -22,7 +22,7 @@ btt.on('click', function(e) {
     oNav = document.getElementById('oNav');
 
     var menu = new TimelineMax({paused:true, reversed: true});
-    TweenMax.set(oNav, {xPercent: 100});
+    // TweenMax.set(oNav, {xPercent: 100});
     menu
     .to('#nav-icon',.0, {className:"+=open"})
     .to(overlay,.5,{autoAlpha: 1, ease: Power4.easeIn})
@@ -124,6 +124,8 @@ var typewriter = new Typewriter(typeDisplay, {
 
 }
 
+var featureVid = document.getElementById('featureVid');
+TweenMax.to(featureVid, 1, {autoAlpha: 1}).delay(1);
 
 // Bootstrap Select
 var formModal = document.getElementById('formModal');

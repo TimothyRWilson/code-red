@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
+	<main role="main" aria-label="Content" style="padding: 120px; height: 100vh;">
 		<!-- section -->
-		<section>
+		<section style="height: 100vh;">
 
 			<!-- article -->
 			<article id="post-404">
@@ -18,7 +18,5 @@
 		</section>
 		<!-- /section -->
 	</main>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

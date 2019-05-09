@@ -7754,6 +7754,192 @@ footer {
       padding: 0 15rem; } }
   .home section h3 {
     font-weight: 300; }
+  .home #manblock {
+    background: #283684;
+    color: #efefef;
+    padding-top: 5rem;
+    position: relative; }
+    .home #manblock:after {
+      width: 20%;
+      height: 20%;
+      right: 0;
+      top: 0;
+      background: rgba(28, 16, 129, 0.5);
+      position: absolute;
+      transform: skew(0deg, -20deg); }
+    .home #manblock:before {
+      width: 60%;
+      height: 70%;
+      left: 0;
+      top: 0;
+      background: rgba(38, 30, 127, 0.5);
+      position: absolute;
+      transform: skew(0deg, 40deg); }
+    .home #manblock .section-bottom {
+      background: linear-gradient(rgba(39, 54, 174, 0.9), rgba(39, 54, 174, 0.9)), url(../src/img/laptop-webinar.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      background-repeat: no-repeat; }
+      @media (max-width: 575.98px) {
+        .home #manblock .section-bottom {
+          min-height: 30rem; } }
+    .home #manblock .section-top, .home #manblock .section-bottom {
+      padding-top: 2rem;
+      padding-bottom: 2rem; }
+    .home #manblock .video-caption {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      text-shadow: 1px 1px 1px #000; }
+    .home #manblock .btn-cta {
+      position: relative; }
+    @media (min-width: 992px) {
+      .home #manblock .text-col {
+        padding: 0px 32px 0 0; } }
+    .home #manblock .row-3 {
+      margin-bottom: 8rem; }
+    .home #manblock .logo-row {
+      margin-bottom: 5rem; }
+    .home #manblock form {
+      background: rgba(12, 12, 12, 0.25);
+      padding: 24px; }
+      .home #manblock form input:not(.btn), .home #manblock form textarea {
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #000;
+        background: transparent;
+        margin-bottom: 12px; }
+        .home #manblock form input:not(.btn)::placeholder, .home #manblock form textarea::placeholder {
+          color: #fff; }
+      .home #manblock form .btn {
+        display: block;
+        margin: auto;
+        width: 240px; }
+    @media (min-width: 576px) {
+      .home #manblock {
+        background-color: #234aca;
+        background-image: -webkit-linear-gradient(30deg, #0e3bdf 50%, #004E95 50%);
+        min-height: 100%; } }
+  .home #blits {
+    padding-top: 5rem;
+    padding-bottom: 10rem; }
+    .home #blits .section-title {
+      margin-bottom: 4rem; }
+    .home #blits .top-row {
+      margin-bottom: 10rem; }
+      .home #blits .top-row .btn-cta {
+        padding: 16px 24px; }
+    .home #blits .container-fluid {
+      position: relative; }
+    .home #blits h2, .home #blits h3, .home #blits h4 {
+      color: #000; }
+    .home #blits h2 + h4 {
+      margin-bottom: 24px; }
+    .home #blits .icon-row {
+      position: relative;
+      padding: 0 2%; }
+    .home #blits .feature-item {
+      background: #fff;
+      border: 1px solid #bbb;
+      margin: -1px 0 -1px 0;
+      padding: 16px;
+      transition: .5s ease all; }
+      @media (min-width: 576px) {
+        .home #blits .feature-item {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      @media (min-width: 768px) {
+        .home #blits .feature-item {
+          padding: 32px;
+          flex: 0 0 33.33333%;
+          max-width: 33.33333%;
+          margin: 0 -1px 0 -1px;
+          height: 100%; } }
+      .home #blits .feature-item h5 {
+        color: #000;
+        font-weight: 100; }
+      .home #blits .feature-item h3 {
+        font-weight: bold; }
+      .home #blits .feature-item:hover {
+        transform: scale(1.02);
+        z-index: 10; }
+      .home #blits .feature-item:last-of-type {
+        background: #0e3bdf; }
+        .home #blits .feature-item:last-of-type h5, .home #blits .feature-item:last-of-type p, .home #blits .feature-item:last-of-type h3 {
+          color: #fff; }
+        .home #blits .feature-item:last-of-type svg {
+          width: 15%; }
+          .home #blits .feature-item:last-of-type svg path {
+            fill: white !important;
+            stroke: white !important; }
+      .home #blits .feature-item .icon-wrapper {
+        justify-content: flex-start;
+        min-height: 70px; }
+      .home #blits .feature-item svg {
+        width: 20%; }
+        .home #blits .feature-item svg path {
+          fill: #0c0c0c !important;
+          stroke: #0c0c0c !important; }
+    .home #blits .icon-wrapper {
+      display: block;
+      width: 100%;
+      justify-content: space-evenly;
+      margin: auto; }
+    .home #blits .blits-performance {
+      margin-bottom: 20px; }
+    .home #blits .content-row-3 {
+      margin-bottom: 8rem; }
+      .home #blits .content-row-3 .feature-item {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border: none;
+        margin: 0;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%; }
+        .home #blits .content-row-3 .feature-item h4 {
+          font-weight: 300;
+          font-size: .75rem;
+          text-align: center;
+          margin-bottom: 0; }
+        .home #blits .content-row-3 .feature-item svg {
+          display: block;
+          width: 50%;
+          margin: auto; }
+          .home #blits .content-row-3 .feature-item svg path {
+            stroke: #000 !important;
+            fill: #000 !important; }
+          @media (min-width: 768px) {
+            .home #blits .content-row-3 .feature-item svg {
+              width: 30%; } }
+        @media (min-width: 576px) {
+          .home #blits .content-row-3 .feature-item {
+            flex: 0 0 25%;
+            max-width: 25%; } }
+        @media (min-width: 992px) {
+          .home #blits .content-row-3 .feature-item {
+            flex: 0 0 16.66667%;
+            max-width: 16.66667%;
+            flex: 0 0 18.66667%;
+            max-width: 18.66667%;
+            min-height: 186px; } }
+        @media (min-width: 768px) {
+          .home #blits .content-row-3 .feature-item {
+            min-height: 240px; } }
+        .home #blits .content-row-3 .feature-item:nth-of-type(2), .home #blits .content-row-3 .feature-item:nth-of-type(4), .home #blits .content-row-3 .feature-item:nth-of-type(6), .home #blits .content-row-3 .feature-item:nth-of-type(8), .home #blits .content-row-3 .feature-item:nth-of-type(10), .home #blits .content-row-3 .feature-item:nth-of-type(12), .home #blits .content-row-3 .feature-item:nth-of-type(14) {
+          background: #0e3bdf; }
+          .home #blits .content-row-3 .feature-item:nth-of-type(2) h4, .home #blits .content-row-3 .feature-item:nth-of-type(4) h4, .home #blits .content-row-3 .feature-item:nth-of-type(6) h4, .home #blits .content-row-3 .feature-item:nth-of-type(8) h4, .home #blits .content-row-3 .feature-item:nth-of-type(10) h4, .home #blits .content-row-3 .feature-item:nth-of-type(12) h4, .home #blits .content-row-3 .feature-item:nth-of-type(14) h4 {
+            color: #fff; }
+          .home #blits .content-row-3 .feature-item:nth-of-type(2) svg path, .home #blits .content-row-3 .feature-item:nth-of-type(4) svg path, .home #blits .content-row-3 .feature-item:nth-of-type(6) svg path, .home #blits .content-row-3 .feature-item:nth-of-type(8) svg path, .home #blits .content-row-3 .feature-item:nth-of-type(10) svg path, .home #blits .content-row-3 .feature-item:nth-of-type(12) svg path, .home #blits .content-row-3 .feature-item:nth-of-type(14) svg path {
+            stroke: #fff !important;
+            fill: #fff !important; }
+        .home #blits .content-row-3 .feature-item:last-child {
+          padding: 0; }
+    .home #blits .section-2-title {
+      margin-bottom: 2rem; }
+    .home #blits .application-suite {
+      margin-bottom: 2rem; }
   .home #section {
     /* Section 1 */
     /* Section 2 */ }
@@ -7903,125 +8089,6 @@ footer {
       .home #section-partners .row {
         justify-content: center;
         text-align: center; }
-    .home #section-2 {
-      padding-top: 5rem;
-      padding-bottom: 10rem; }
-      .home #section-2 .section-title {
-        margin-bottom: 4rem; }
-      .home #section-2 .top-row {
-        margin-bottom: 10rem; }
-        .home #section-2 .top-row .btn-cta {
-          padding: 16px 24px; }
-      .home #section-2 .container-fluid {
-        position: relative; }
-      .home #section-2 h2, .home #section-2 h3, .home #section-2 h4 {
-        color: #000; }
-      .home #section-2 h2 + h4 {
-        margin-bottom: 24px; }
-      .home #section-2 .icon-row {
-        position: relative;
-        padding: 0 2%; }
-      .home #section-2 .feature-item {
-        background: #fff;
-        border: 1px solid #bbb;
-        margin: -1px 0 -1px 0;
-        padding: 16px;
-        transition: .5s ease all; }
-        @media (min-width: 576px) {
-          .home #section-2 .feature-item {
-            flex: 0 0 50%;
-            max-width: 50%; } }
-        @media (min-width: 768px) {
-          .home #section-2 .feature-item {
-            padding: 32px;
-            flex: 0 0 33.33333%;
-            max-width: 33.33333%;
-            margin: 0 -1px 0 -1px;
-            height: 100%; } }
-        .home #section-2 .feature-item h5 {
-          color: #000;
-          font-weight: 100; }
-        .home #section-2 .feature-item h3 {
-          font-weight: bold; }
-        .home #section-2 .feature-item:hover {
-          transform: scale(1.02);
-          z-index: 10; }
-        .home #section-2 .feature-item:last-of-type {
-          background: #0e3bdf; }
-          .home #section-2 .feature-item:last-of-type h5, .home #section-2 .feature-item:last-of-type p, .home #section-2 .feature-item:last-of-type h3 {
-            color: #fff; }
-          .home #section-2 .feature-item:last-of-type svg {
-            width: 15%; }
-            .home #section-2 .feature-item:last-of-type svg path {
-              fill: white !important;
-              stroke: white !important; }
-        .home #section-2 .feature-item .icon-wrapper {
-          justify-content: flex-start;
-          min-height: 70px; }
-        .home #section-2 .feature-item svg {
-          width: 20%; }
-          .home #section-2 .feature-item svg path {
-            fill: #0c0c0c !important;
-            stroke: #0c0c0c !important; }
-      .home #section-2 .icon-wrapper {
-        display: block;
-        width: 100%;
-        justify-content: space-evenly;
-        margin: auto; }
-      .home #section-2 .blits-performance {
-        margin-bottom: 20px; }
-      .home #section-2 .content-row-3 {
-        margin-bottom: 8rem; }
-        .home #section-2 .content-row-3 .feature-item {
-          display: flex;
-          flex-direction: column;
-          background: #fff;
-          border: none;
-          margin: 0;
-          flex: 0 0 33.33333%;
-          max-width: 33.33333%; }
-          .home #section-2 .content-row-3 .feature-item h4 {
-            font-weight: 300;
-            font-size: .75rem;
-            text-align: center;
-            margin-bottom: 0; }
-          .home #section-2 .content-row-3 .feature-item svg {
-            display: block;
-            width: 50%;
-            margin: auto; }
-            .home #section-2 .content-row-3 .feature-item svg path {
-              stroke: #000 !important;
-              fill: #000 !important; }
-            @media (min-width: 768px) {
-              .home #section-2 .content-row-3 .feature-item svg {
-                width: 30%; } }
-          @media (min-width: 576px) {
-            .home #section-2 .content-row-3 .feature-item {
-              flex: 0 0 25%;
-              max-width: 25%; } }
-          @media (min-width: 992px) {
-            .home #section-2 .content-row-3 .feature-item {
-              flex: 0 0 16.66667%;
-              max-width: 16.66667%;
-              flex: 0 0 18.66667%;
-              max-width: 18.66667%;
-              min-height: 186px; } }
-          @media (min-width: 768px) {
-            .home #section-2 .content-row-3 .feature-item {
-              min-height: 240px; } }
-          .home #section-2 .content-row-3 .feature-item:nth-of-type(2), .home #section-2 .content-row-3 .feature-item:nth-of-type(4), .home #section-2 .content-row-3 .feature-item:nth-of-type(6), .home #section-2 .content-row-3 .feature-item:nth-of-type(8), .home #section-2 .content-row-3 .feature-item:nth-of-type(10), .home #section-2 .content-row-3 .feature-item:nth-of-type(12), .home #section-2 .content-row-3 .feature-item:nth-of-type(14) {
-            background: #0e3bdf; }
-            .home #section-2 .content-row-3 .feature-item:nth-of-type(2) h4, .home #section-2 .content-row-3 .feature-item:nth-of-type(4) h4, .home #section-2 .content-row-3 .feature-item:nth-of-type(6) h4, .home #section-2 .content-row-3 .feature-item:nth-of-type(8) h4, .home #section-2 .content-row-3 .feature-item:nth-of-type(10) h4, .home #section-2 .content-row-3 .feature-item:nth-of-type(12) h4, .home #section-2 .content-row-3 .feature-item:nth-of-type(14) h4 {
-              color: #fff; }
-            .home #section-2 .content-row-3 .feature-item:nth-of-type(2) svg path, .home #section-2 .content-row-3 .feature-item:nth-of-type(4) svg path, .home #section-2 .content-row-3 .feature-item:nth-of-type(6) svg path, .home #section-2 .content-row-3 .feature-item:nth-of-type(8) svg path, .home #section-2 .content-row-3 .feature-item:nth-of-type(10) svg path, .home #section-2 .content-row-3 .feature-item:nth-of-type(12) svg path, .home #section-2 .content-row-3 .feature-item:nth-of-type(14) svg path {
-              stroke: #fff !important;
-              fill: #fff !important; }
-          .home #section-2 .content-row-3 .feature-item:last-child {
-            padding: 0; }
-      .home #section-2 .section-2-title {
-        margin-bottom: 2rem; }
-      .home #section-2 .application-suite {
-        margin-bottom: 2rem; }
     .home #section-integrations {
       padding-bottom: 5rem; }
       .home #section-integrations .integrations {
@@ -8030,68 +8097,6 @@ footer {
         justify-content: center; }
       .home #section-integrations img {
         width: 60%; }
-    .home #section-3 {
-      background: #283684;
-      color: #efefef;
-      padding-top: 5rem;
-      position: relative; }
-      .home #section-3:after {
-        width: 20%;
-        height: 20%;
-        right: 0;
-        top: 0;
-        background: rgba(28, 16, 129, 0.5);
-        position: absolute;
-        transform: skew(0deg, -20deg); }
-      .home #section-3:before {
-        width: 60%;
-        height: 70%;
-        left: 0;
-        top: 0;
-        background: rgba(38, 30, 127, 0.5);
-        position: absolute;
-        transform: skew(0deg, 40deg); }
-      .home #section-3 .section-bottom {
-        background: linear-gradient(rgba(39, 54, 174, 0.9), rgba(39, 54, 174, 0.9)), url(../src/img/laptop-webinar.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 400px;
-        background-repeat: no-repeat; }
-        @media (max-width: 575.98px) {
-          .home #section-3 .section-bottom {
-            min-height: 30rem; } }
-      .home #section-3 .section-top, .home #section-3 .section-bottom {
-        padding-top: 2rem;
-        padding-bottom: 2rem; }
-      .home #section-3 .video-caption {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        text-shadow: 1px 1px 1px #000; }
-      .home #section-3 .btn-cta {
-        position: relative; }
-      @media (min-width: 992px) {
-        .home #section-3 .text-col {
-          padding: 0px 32px 0 0; } }
-      .home #section-3 .row-3 {
-        margin-bottom: 8rem; }
-      .home #section-3 .logo-row {
-        margin-bottom: 5rem; }
-      .home #section-3 form {
-        background: rgba(12, 12, 12, 0.25);
-        padding: 24px; }
-        .home #section-3 form input:not(.btn), .home #section-3 form textarea {
-          border: none;
-          border-radius: 0;
-          border-bottom: 1px solid #000;
-          background: transparent;
-          margin-bottom: 12px; }
-          .home #section-3 form input:not(.btn)::placeholder, .home #section-3 form textarea::placeholder {
-            color: #fff; }
-        .home #section-3 form .btn {
-          display: block;
-          margin: auto;
-          width: 240px; }
     .home #section-4 {
       background: transparent;
       color: #4C5151;
@@ -8250,10 +8255,6 @@ footer {
           border-radius: 0;
           border-bottom: 1px solid #ccc; }
   @media (min-width: 576px) {
-    .home #section-3 {
-      background-color: #234aca;
-      background-image: -webkit-linear-gradient(30deg, #0e3bdf 50%, #004E95 50%);
-      min-height: 100%; }
     .home #section-4 .top-section {
       padding-top: 2rem; }
     .home #section-4 .bottom-section .nav-tabs {

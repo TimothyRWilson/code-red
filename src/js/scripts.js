@@ -185,5 +185,22 @@ $(document).click(function (e) {
         }
     });
 
+window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#343434"
+        },
+        "button": {
+          "background": "#20D6F5",
+          color: "white"
+        }
+      },
+      "content": {
+        "message": "This Website uses cookies. By browsing the site, you agree to their use.",
+        "dismiss": "I Agree",
+        "link": "Learn more",href:"/privacy-policy"
+      }
+    });});
 
 } ( this, jQuery ));

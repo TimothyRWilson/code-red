@@ -77,7 +77,7 @@
 </section>
 		<!-- section -->
 
-    <section id="section-2" class="">
+    <section id="blits" class="">
     <section class="content-section bg-blits" id="title-section">
             <!--<div class="wrapper">
             </div>-->
@@ -560,7 +560,7 @@
 </section>
 <!-- //Section -->
 
-<section class="content-section" id="section-3">
+<section class="content-section" id="manblock">
   <div class="container-fluid">
     <div class="row">
       <div class="col col-12 text-center">
@@ -704,7 +704,7 @@
                     </h3>
                     <div class="gradient-short gradient-blue"></div>
                     <!-- Calendly inline widget begin -->
-<!-- Calendly inline widget end -->
+            <!-- Calendly inline widget end -->
                     <!-- <form  action="/contact/" class="contact-form row" method="post">
                       <div class="col col-12 col-xl-6 mb-2 mb-xl-0">
                         <input class="form-control" name="name" placeholder="Your name *" type="text"> 
@@ -744,16 +744,6 @@
             <!-- /.container-fluid -->
           </section>
         </section>
-
-
-		<section>
-
-			
-
-			
-
-			
-
 		</section>
 		<!-- /section -->
 	</main>

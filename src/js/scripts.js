@@ -123,12 +123,15 @@ var typewriter = new Typewriter(typeDisplay, {
         .start();
 
 }
-
 var featureVid = document.getElementById('featureVid');
+TweenMax.to(featureVid, .2, {autoAlpha: 1});
+var section1 = document.getElementById('section-1');
+TweenMax.set(section1,{autoAlpha:0});
+TweenMax.to(section1,1,{autoAlpha: 1});
 var vidImage = document.getElementById('imageFrame');
-TweenMax.set(vidImage, {autoAlpha: 0});
-TweenMax.to(featureVid, .25, {autoAlpha: 1}).delay(.5);
-TweenMax.to(vidImage, .15, {autoAlpha: 1}).delay(.5);
+// TweenMax.set(vidImage, {autoAlpha: 0});
+
+// TweenMax.to(vidImage, .15, {autoAlpha: 1}).delay(.5);
 
 // Bootstrap Select
 var formModal = document.getElementById('formModal');

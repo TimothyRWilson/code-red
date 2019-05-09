@@ -125,7 +125,10 @@ var typewriter = new Typewriter(typeDisplay, {
 }
 
 var featureVid = document.getElementById('featureVid');
-TweenMax.to(featureVid, 1, {autoAlpha: 1}).delay(1);
+var vidImage = document.getElementById('imageFrame');
+TweenMax.set(vidImage, {autoAlpha: 0});
+TweenMax.to(featureVid, .25, {autoAlpha: 1}).delay(.5);
+TweenMax.to(vidImage, .15, {autoAlpha: 1}).delay(.5);
 
 // Bootstrap Select
 var formModal = document.getElementById('formModal');

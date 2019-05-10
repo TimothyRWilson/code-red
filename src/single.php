@@ -29,17 +29,17 @@
 					<?php the_date(); ?> <?php the_time(); ?>
 				</time>
 			</span>
-			<span class="author"><?php esc_html_e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php if ( comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' ) ); ?></span>
+			<span class="author"><?php esc_html_e( 'Published by', 'kompitech' ); ?> <?php the_author_posts_link(); ?></span>
+			<span class="comments"><?php if ( comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'kompitech' ), __( '1 Comment', 'kompitech' ), __( '% Comments', 'kompitech' ) ); ?></span>
 			<!-- /post details -->
 
 			<?php the_content(); // Dynamic Content. ?>
 
-			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
+			<?php the_tags( __( 'Tags: ', 'kompitech' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
 
-			<p><?php esc_html_e( 'Categorised in: ', 'html5blank' ); the_category( ', ' ); // Separated by commas. ?></p>
+			<p><?php esc_html_e( 'Categorised in: ', 'kompitech' ); the_category( ', ' ); // Separated by commas. ?></p>
 
-			<p><?php esc_html_e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
+			<p><?php esc_html_e( 'This post was written by ', 'kompitech' ); the_author(); ?></p>
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available. ?>
 
@@ -55,7 +55,7 @@
 		<!-- article -->
 		<article>
 
-			<h1><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
+			<h1><?php esc_html_e( 'Sorry, nothing to display.', 'kompitech' ); ?></h1>
 
 		</article>
 		<!-- /article -->

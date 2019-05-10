@@ -77,9 +77,7 @@ function menuToggle() {
       $("header").removeClass("header-show");
       $('.t-nav-links a').css('color','#fff');
 
-     //>=, not <=
     if (scroll >= 20) {
-        //clearHeader, not clearheader - caps H
         $("header").addClass("header-show");
         $('.t-nav-links a').css('color','#000');
     }

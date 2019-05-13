@@ -1332,3 +1332,45 @@ section {
 
     button.btn.btn-cta {}
 }
+
+
+
+// STYLES FOR THE ENQUIRY FORM
+
+#contactform1 {
+    width: 95%;
+
+    .smack_logmsg {
+        display: none;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    td:nth-of-type(1) {
+        display: none;
+    }
+
+    .contact-form-comment {
+        display: none;
+    }
+
+    .smack_post_fields {
+        height: 40px;
+    }
+
+   #Leads_lead_source_description {
+    background: #dcdcdc;
+    text-align: center;
+    height: auto;
+    height: 30px;
+   }
+    
+    #submit {
+    background: $kompiblue;
+    color: #fff;
+    padding: 12px 24px;
+    float: right;
+    }
+}

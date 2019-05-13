@@ -9620,6 +9620,29 @@ section {
     border-radius: 0;
     border-bottom: 1px solid #ccc; }
 
+#contactform1 {
+  width: 95%; }
+  #contactform1 .smack_logmsg {
+    display: none; }
+  #contactform1 table {
+    width: 100%; }
+  #contactform1 td:nth-of-type(1) {
+    display: none; }
+  #contactform1 .contact-form-comment {
+    display: none; }
+  #contactform1 .smack_post_fields {
+    height: 40px; }
+  #contactform1 #Leads_lead_source_description {
+    background: #dcdcdc;
+    text-align: center;
+    height: auto;
+    height: 30px; }
+  #contactform1 #submit {
+    background: #20d6f5;
+    color: #fff;
+    padding: 12px 24px;
+    float: right; }
+
 /**
  * partials/subpages
  * ---

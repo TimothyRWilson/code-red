@@ -73,31 +73,8 @@
       <!-- /.modal-header -->
       <div class="modal-body container">
         <div class="row justify-content-center">
-          <form action="https://kompitech.us18.list-manage.com/subscribe/post"
-          method="POST"
-          class="col-12 col-lg-12"
-          ><div class="container">
-            <div class="row justify-content-center">
-              <input type="hidden" name="u" value="0c809f2d34c39d5585ec6d2e7" />
-              <input type="hidden" name="id" value="14e532150c" />
-              <input type="text" value="" name="MMERGE5" class="form-control col-12 mx-2 my-2" id="mce-MMERGE5" placeholder="Requirement*" disabled="true" readonly="true">
-
-              <input type="email" value="" name="EMAIL" class="required email form-control col-12 mx-2 my-2" id="mce-EMAIL" placeholder="Email*">
-
-              <input type="text" value="" name="S_NAME" class="form-control col-12 mx-2 my-2" id="mce-S_NAME" placeholder="Name*" required="true">
-
-              <input type="text" name="S_PHONE" class="form-control col-12 mx-2 my-2" value="" id="mce-S_PHONE" placeholder="Phone*" required="true">
-
-              <textarea name="S_DETAILS" class="form-control col-12" id="mce-S_DETAILS" rows="4" cols="50" placeholder="Additional Details"></textarea>
-              <div class="col-12 my-3">
-                <button class="btn btn-cta mx-auto d-block" type="submit" value="subscribe">Submit</button>
-              </div>
-              <!-- /col-12 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- //.container -->
-        </form>
+          <?php echo do_shortcode("[wpsuitepro-web-form name='post']"); ?>
+          <small>Fields marked with an * are Required</small>
       </div>
       <!-- //.row -->
       <div class="modal-footer">

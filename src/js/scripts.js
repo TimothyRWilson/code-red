@@ -128,6 +128,38 @@ TweenMax.set(vidImage, {autoAlpha: 0});
 TweenMax.to(featureVid, .25, {autoAlpha: 1}).delay(.5);
 TweenMax.to(vidImage, .15, {autoAlpha: 1}).delay(.5);
 
+
+// BUILD CRM FORM 
+$('#Leads_first_name').attr({
+  'placeholder': 'First Name*',
+  'required' : true
+});
+$('#Leads_last_name').attr({
+  'placeholder': 'Last Name*',
+  'required' : true
+});
+$('#Leads_email1').attr({
+  'placeholder': 'Email*',
+  'required' : true
+});
+$('#Leads_phone_work').attr({
+  'placeholder': 'Phone Number*',
+  'required' : true
+
+});
+$('#Leads_description').attr({
+  'placeholder': 'Additional Details'
+});
+$('#Leads_lead_source').attr({
+  'value': 'Web Site',
+  'hidden': true
+});
+
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
+
+
 // Bootstrap Select
 var formModal = document.getElementById('formModal');
 TweenMax.set(formModal, {xPercent: '100','z-index': 10, 'display': 'none'});
@@ -161,7 +193,8 @@ $('#requestSelect').selectpicker({
 
     if (select.options[select.selectedIndex].value) {
             var selectText = select.options[select.selectedIndex].value;
-            $('#formModal').find('#mce-MMERGE5').val(selectText);
+            $('#formModal').find('#Leads_lead_source_description').val(selectText).attr({'readonly': true,'disabled':true});
+
             // $('#formModal').modal('show');
             TweenMax.to(formModal, 1, {display:'block',xPercent: 0, ease: Power2.easeOut});
             $('body').css('background','0,0,0 .75');

@@ -1,6 +1,11 @@
 <?php /* Template Name: Standard */ get_header(); ?>
 
 <main role="main" aria-label="Content" class="sub-page">
+	<style>
+		main {
+			min-height: 800px;
+		}
+	</style>
 	<!-- section -->
 	<section>
 <div class="container-fluid hero">
@@ -16,7 +21,7 @@
 			<!-- article -->
 			<div class="container page-content">
 				<div class="row">
-					<div class="col-md-10">
+					<div class="col-md-10 m-auto">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<?php the_content(); ?>

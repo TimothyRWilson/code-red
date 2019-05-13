@@ -140,11 +140,13 @@ $('#Leads_last_name').attr({
 });
 $('#Leads_email1').attr({
   'placeholder': 'Email*',
-  'required' : true
+  'required' : true,
+  'type' : 'email'
 });
 $('#Leads_phone_work').attr({
   'placeholder': 'Phone Number*',
-  'required' : true
+  'required' : true,
+  'type' : 'phone'
 
 });
 $('#Leads_description').attr({
@@ -193,13 +195,13 @@ $('#requestSelect').selectpicker({
 
     if (select.options[select.selectedIndex].value) {
             var selectText = select.options[select.selectedIndex].value;
-            $('#formModal').find('#Leads_lead_source_description').val(selectText).attr({'readonly': true,'disabled':true});
+            $('#formModal').find('#Leads_lead_source_description').val(selectText).attr({'readonly': true});
 
             // $('#formModal').modal('show');
             TweenMax.to(formModal, 1, {display:'block',xPercent: 0, ease: Power2.easeOut});
             $('body').css('background','0,0,0 .75');
             setTimeout(function() {
-              document.getElementById('mce-EMAIL').focus();
+              document.getElementById('Leads_first_name').focus();
             },1000);
     }
 });
@@ -218,6 +220,7 @@ $(document).click(function (e) {
         if($(this).text() == 'Get Started') {
             e.preventDefault();
             TweenMax.to(formModal, 1, {display:'block',xPercent: 0, ease: Power2.easeOut});
+            $('#formModal').find('#Leads_lead_source_description').val('General Inquiry').attr({'readonly': true});
         }
     });
 
@@ -238,5 +241,5 @@ window.addEventListener("load", function(){
         "link": "Learn more",href:"/privacy-policy"
       }
     });});
-
+console.log('mercy street');
 } ( this, jQuery ));

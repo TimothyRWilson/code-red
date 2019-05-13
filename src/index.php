@@ -102,13 +102,13 @@
         <div class="row justify-content-center align-items-center top-row">
             <div class="col-md-5 mb-3 mb-md-0 title">
                 <h3 class="font-weight-bold">
-                    KompiTech BLITS
+                    KompiTech BLiTS
                 </h3>
                 <h4>
                     Blockchain ITSM Solution
                 </h4>
                 <p class="mb-5">
-                    KompiTech BLITS comes with powerful IT process automation tools for delivering services to organizations of all sizes. <br> <br>
+                    KompiTech BLiTS comes with powerful IT process automation tools for delivering services to organizations of all sizes. <br> <br>
                     An interactive and intuitive dashboard utilizing our cutting-edge IT Solutions with immutable data history which helps ease your business operations and reduce costs of managing your IT support department.
                 </p>
                 <div class="col-12 d-flex justify-content-center justify-content-md-start p-0">
@@ -126,7 +126,7 @@
 <div class="row title-row-2 caption justify-content-center">
     <div class="col-sm-10 text-center application-suite">
         <h2 class="font-weight-bold">
-            BLITS Blockchain Application Suite &amp; Features
+            BLiTS Blockchain Application Suite &amp; Features
         </h2>
             <p class="">
                 Scalable ITSM applications, leveraging blockchain technology for managing small to large enterprise IT services.
@@ -439,7 +439,7 @@
                       <p>
                           Instantiate SLA for operations and auto tracking
                       </p>
-                      <h3 class="h2">BLITS <br>Smart Contract</h3>
+                      <h3 class="h2">BLiTS <br>Smart Contract</h3>
                       
                   </div>
   
@@ -482,7 +482,7 @@
       <p>
           Service provisioning and transition management
       </p>
-      <h3 class="h2">BLITS <br>Application Suite</h3>
+      <h3 class="h2">BLiTS <br>Application Suite</h3>
   
   </div>
   
@@ -493,10 +493,10 @@
      </div>
      <!-- //.icon-wrapper -->
      <p>
-      Design your services on BLITS platform
+      Design your services on BLiTS platform
   </p>
   <h3 class="h2">
-      BLITS <br>ITSM System
+      BLiTS <br>ITSM System
   </h3>
   <a class="btn btn-cta float-right" style="height: auto;">Get Started</a>
   </div>
@@ -516,7 +516,7 @@
       <div class="col-12 text-center integrations">
         <h2 class="font-weight-bold">Seamless Integration</h2>
         <p class="mb-4">
-        Effortlessly integrate the ITSM system of your choice with our easy to implement solutions. <br> KompiTech BLITS provides an extra security layer to ensure data integrity of your IT assets and agreements.
+        Effortlessly integrate the ITSM system of your choice with our easy to implement solutions. <br> KompiTech BLiTS provides an extra security layer to ensure data integrity of your IT assets and agreements.
         </p>
       </div>
     </div>
@@ -682,7 +682,7 @@
             </div>
           </section>
           <!-- //.section-top -->
-          <section class="section-bottom" style="">
+          <section class="section-bottom" style="background: linear-gradient(rgba($containerblue, 0.9), rgba($containerblue, 0.9)), url(<?php echo get_template_directory_uri(); ?>/img/laptop-webinar.jpg)">
             <div class="container-fluid h-100">
               <div class="row justify-content-center">
                 <div class="col-10 col-lg-8 my-5">

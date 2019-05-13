@@ -7776,7 +7776,7 @@ footer {
       position: absolute;
       transform: skew(0deg, 40deg); }
     .home #manblock .section-bottom {
-      background: linear-gradient(rgba(39, 54, 174, 0.9), rgba(39, 54, 174, 0.9)), url(../src/img/laptop-webinar.jpg);
+      background: linear-gradient(rgba(39, 54, 174, 0.9), rgba(39, 54, 174, 0.9)), url(img/laptop-webinar.jpg);
       background-position: center;
       background-size: cover;
       height: 400px;

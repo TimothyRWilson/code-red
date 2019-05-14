@@ -59,7 +59,7 @@ property="og:description">
     <div class="wrapper">
 
      <!-- header -->
-     <header class="header fixed-top bg-transparent" id="header">
+     <header class="header fixed-top" id="header">
       <div class=" d-inline-block p-3 col-12">
           <a class="header-logo" href="<?php echo esc_url( home_url() ); ?>" class="float-left" style="text-decoration: none;">
             <svg class="mr-2" version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -99,7 +99,7 @@ property="og:description">
             <text transform="matrix(1 0 0 0.95 220.685 127.8382)" style="display:;fill:#fff; font-family:'Mont-Bold'; font-size:128px; letter-spacing:-3;">KompiTech</text>
           </svg>
 
-            <h1 class="text-black h5 font-weight-bold m-0 d-inline-block"><?php bloginfo('title'); ?></h1>
+            <h1 class="logo-name h5 font-weight-bold m-0 d-inline-block"><?php bloginfo('title'); ?></h1>
           </a>
         </div>
      </header>

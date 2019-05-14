@@ -1,6 +1,14 @@
 // fc8709
 
 .page-template-adwords-template {
+
+    header {
+        background: transparent;
+
+        &.header-show {
+            background: #fff;
+        }
+    }
     .btn {
     border-radius: 0px 8px 0px 8px;
     padding: 8px 12px;
@@ -72,6 +80,17 @@
         input, select {
             border: none;
             border-radius: 8px;
+        }
+    }
+
+    .card-row {
+        div[class^="col-"] div {
+            background: #cccccc;
+            border-radius: 12px;
+
+            h5 {
+                font-size: 12px;
+            }
         }
     }
 }

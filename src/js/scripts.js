@@ -22,12 +22,21 @@ btt.on('click', function(e) {
     var scroll = $(window).scrollTop();
       $("header").removeClass("header-show");
       $('.t-nav-links a').css('color','#fff');
+      $('.logo-name').css('color','#fff');
 
     if (scroll >= 20) {
         $("header").addClass("header-show");
         $('.t-nav-links a').css('color','#000');
+        $('.logo-name').css('color','#000');
     }
+    if (scroll >= 300) {
+        
+        
+    }
+
 });
+
+
   
 // SLIDEOUT NAV MENU
   //Set vars

@@ -57,6 +57,54 @@
 						reliable Hyperledger Fabric.
 					</p>
 					<img src="<?php echo get_template_directory_uri(); ?>/img/test/img-5.jpg" alt="<?php echo getallheaders(); ?>" class="img-fluid content-img">
+					<h3 class="mt-5 mb-3">
+						Blockchain Technology for Your Industry
+					</h3>
+					<p>
+						Our fast, scalable and highly available blockchian technology platform could be an answer to your rapidly growing industry needs. Discover today how KompiTech Blockchain-as-a-Service platform could be applied to your industry by click on the cards below. 
+					</p>
+					<div class="row card-row justify-content-center">
+						<div class="col-5 col-lg-4 col-xl-3">
+							<div class="bg-light mb-3" style="">
+							  <div class="card-body">
+							    <img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/finance.svg" alt="<?php  ?>">
+							    <h5 class="text-center">
+							    	Finance
+							    </h5>
+							  </div>
+							</div>
+						</div>
+						<div class="col-5 col-lg-4 col-xl-3">
+							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/energy.svg" alt="<?php  ?>">
+							<h5 class="text-center">
+								Energy
+							</h5>
+						</div>
+						<div class="col-5 col-lg-4 col-xl-3">
+							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/supply-chain.svg" alt="<?php  ?>">
+							<h5 class="text-center">
+								Supply Chain
+							</h5>
+						</div>
+						<div class="col-5 col-lg-4 col-xl-3">
+							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/insurance.svg" alt="<?php  ?>">
+							<h5 class="text-center">
+								Insurance
+							</h5>
+						</div>
+						<div class="col-5 col-lg-4 col-xl-3">
+							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/manufacturing.svg" alt="<?php  ?>">
+							<h5 class="text-center">
+								Manufacturing
+							</h5>
+						</div>
+						<div class="col-5 col-lg-4 col-xl-3">
+							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/telecommunications.svg" alt="<?php  ?>">
+							<h5>
+								Telecommunications
+							</h5>
+						</div>
+					</div>
 				</div>
 				<!-- //.col -->
 				<div class="col-md-4 offset-1">

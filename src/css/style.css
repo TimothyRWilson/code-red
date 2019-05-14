@@ -8797,6 +8797,11 @@ section {
           stroke: #fff !important;
           fill: #fff !important; } }
 
+.page-template-adwords-template header {
+  background: transparent; }
+  .page-template-adwords-template header.header-show {
+    background: #fff; }
+
 .page-template-adwords-template .btn {
   border-radius: 0px 8px 0px 8px;
   padding: 8px 12px; }
@@ -8852,5 +8857,11 @@ section {
   .page-template-adwords-template .signup-form input, .page-template-adwords-template .signup-form select {
     border: none;
     border-radius: 8px; }
+
+.page-template-adwords-template .card-row div[class^="col-"] div {
+  background: #cccccc;
+  border-radius: 12px; }
+  .page-template-adwords-template .card-row div[class^="col-"] div h5 {
+    font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */

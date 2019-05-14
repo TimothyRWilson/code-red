@@ -1,0 +1,77 @@
+// fc8709
+
+.btn {
+    border-radius: 0px 8px 0px 8px;
+    padding: 8px 12px;
+}
+.btn-orange {
+    background: #fc8709;
+}
+.page-template-adwords-template {
+
+    .home-hero {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center -200px;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+        z-index: 0;
+        
+        * {
+            z-index: 1;
+        }
+    }
+
+    &.blockchain {
+        .home-hero {
+               background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15)), url(img/test/cloud-mountain.jpg);
+        }
+    }
+    .img-container {
+        position: relative;
+    }
+    .bg-blob {
+       background: rgba(50,220,255,.75);
+       width: 800px;
+       height: 800px;
+       position: fixed;
+       bottom: -100px;
+       left: 0;
+       border-radius: 36px;
+       transform: rotate(-45deg);
+       z-index: -1;
+
+    }
+
+    .content-section {
+        background: $white;
+        position: relative;
+        padding-top: 70px;
+        z-index: 1;
+
+        .content-img {
+            border-radius: 12px;
+        }
+    }
+
+    .signup-form {
+        background: #e9e9ea;
+        padding: 24px 12px;
+        border-radius: 12px;
+        margin-top: -102px;
+      
+        h3 {
+            margin-bottom: 100px;
+        }
+
+        label {
+            display: none;
+        }
+
+        input, select {
+            border: none;
+            border-radius: 8px;
+        }
+    }
+}

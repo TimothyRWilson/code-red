@@ -5,7 +5,7 @@
 	<section class="home-hero">
 		<div class="container-fluid h-100">
 			<div class="row h-100 justify-content-center align-items-center">
-				<div class="col-md-5">
+				<div class="col-md-5 img-container">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/test/none.png" alt="" class="img-fluid">
 				</div>
 				<!-- /col-md-6 -->
@@ -29,7 +29,7 @@
 			<!-- //.row -->
 		</div>
 		<!-- //.container-fluid -->
-		<div class="bg-blob">
+				<div class="bg-blob">
 
 		</div>
 	</section>
@@ -56,6 +56,7 @@
 						KompiTech <span class="text-uppercase">manblock</span> is a fully managed, Blockchain-as-a-Service (Baas) platform operating on a fully scalable and
 						reliable Hyperledger Fabric.
 					</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/test/img-5.jpg" alt="<?php echo getallheaders(); ?>" class="img-fluid content-img">
 				</div>
 				<!-- //.col -->
 				<div class="col-md-4 offset-1">
@@ -66,57 +67,88 @@
 									Sign Up for a No-Obligation Blockchain Demo
 								</h3>
 							</div>
-							<div class="col-md-4 mb-3">
+							<div class="col-md-6 mb-3">
 								<label for="validationTooltip01">First name</label>
-								<input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+								<input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Tim" required>
 								<div class="valid-tooltip">
 									Looks good!
 								</div>
 							</div>
-							<div class="col-md-4 mb-3">
+							<div class="col-md-6 mb-3">
 								<label for="validationTooltip02">Last name</label>
-								<input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+								<input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Wilson" required>
 								<div class="valid-tooltip">
 									Looks good!
-								</div>
-							</div>
-							<div class="col-md-4 mb-3">
-								<label for="validationTooltipUsername">Username</label>
-								<div class="input-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-									</div>
-									<input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
-									<div class="invalid-tooltip">
-										Please choose a unique and valid username.
-									</div>
 								</div>
 							</div>
 						</div>
 						<div class="form-row">
-							<div class="col-md-6 mb-3">
-								<label for="validationTooltip03">City</label>
-								<input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
-								<div class="invalid-tooltip">
-									Please provide a valid city.
+							<div class="col-md-12 mb-3">
+								<label for="validationTooltip01">Business email address</label>
+								<input type="text" class="form-control" id="validationTooltip01" placeholder="Business Email Address" required>
+								<div class="valid-tooltip">
+									Looks good!
 								</div>
 							</div>
-							<div class="col-md-3 mb-3">
-								<label for="validationTooltip04">State</label>
-								<input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
-								<div class="invalid-tooltip">
-									Please provide a valid state.
-								</div>
-							</div>
-							<div class="col-md-3 mb-3">
-								<label for="validationTooltip05">Zip</label>
-								<input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
-								<div class="invalid-tooltip">
-									Please provide a valid zip.
+							<div class="col-md-12 mb-3">
+								<label for="validationTooltip02">Work phone number</label>
+								<input type="text" class="form-control" id="validationTooltip02" placeholder="Work phone number" value="" required>
+								<div class="valid-tooltip">
+									Looks good!
 								</div>
 							</div>
 						</div>
-						<button class="btn btn-primary" type="submit">Submit form</button>
+						<div class="form-row">
+							<div class="col-md-12 mb-3">
+								<label for="validationTooltip01">Company Name</label>
+								<input type="text" class="form-control" id="validationTooltip01" placeholder="Company Name" required>
+								<div class="valid-tooltip">
+									Looks good!
+								</div>
+							</div>
+							<div class="col-md-12 mb-3">
+								<label for="validationTooltip01">Job Title</label>
+								<input type="text" class="form-control" id="validationTooltip01" placeholder="Job Title" required>
+								<div class="valid-tooltip">
+									Looks good!
+								</div>
+
+							</div>
+						</div>
+
+						<div class="form-row">
+							<div class="col-md-6 mb-3">
+								<label for="validationTooltip01">Industry</label>
+								<select type="text" class="form-control" id="validationTooltip01" placeholder="Company Name" required></select>
+								<div class="valid-tooltip">
+									Looks good!
+								</div>
+							</div>
+							<div class="col-md-6 mb-3">
+								<label for="validationTooltip01">Country</label>
+								<select type="text" class="form-control" id="validationTooltip01" placeholder="" required></select>
+								<div class="valid-tooltip">
+									Looks good!
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-1 mb-3">
+								<input type="checkbox">
+							</div>
+							<div class="col-md-11">
+								<p style="font-size: 14px;">
+									Tick this box if you wish to receive further information on how blockchain technology can help to transform your business. 
+								</p>
+								<p>
+									<span class="small">
+									<em>
+										We're committed to your privacy. KompiTech uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information check out our <a href="/privacy-policy">Privacy Policy</a> 
+									</em>
+								</span>
+							</p>
+							</div>
+						</div>
 					</form>
 				</div>
 			</div>

@@ -4,3 +4,4 @@ dist/
 src/css/maps
 .idea
 src/modules/is-debug.php
+src/img/test/

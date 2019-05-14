@@ -73,9 +73,6 @@ if ($('#typewriter').length) {
     loop: true,
     cursor: '_'
   });
-  var img1 = $('#section-1 #img-1');
-  var img2 = $('#section-1 #img-2');
-    // var img3 = $('#section-1 #img-3');
     typewriter
     .typeString('BLITS Blockchain ITSM Solution')
     .pauseFor(2000)

@@ -29,7 +29,7 @@
 			<!-- //.row -->
 		</div>
 		<!-- //.container-fluid -->
-				<div class="bg-blob">
+		<div class="bg-blob">
 
 		</div>
 	</section>
@@ -65,44 +65,52 @@
 					</p>
 					<div class="row card-row justify-content-center">
 						<div class="col-5 col-lg-4 col-xl-3">
-							<div class="bg-light mb-3" style="">
-							  <div class="card-body">
-							    <img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/finance.svg" alt="<?php  ?>">
-							    <h5 class="text-center">
-							    	Finance
-							    </h5>
-							  </div>
+							<div class="card-body">
+								<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/finance.svg" alt="<?php  ?>">
+								<h5 class="text-center">
+									Finance
+								</h5>
 							</div>
 						</div>
 						<div class="col-5 col-lg-4 col-xl-3">
-							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/energy.svg" alt="<?php  ?>">
-							<h5 class="text-center">
-								Energy
-							</h5>
+							<div class="card-body">
+								<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/energy.svg" alt="<?php  ?>">
+								<h5 class="text-center">
+									Energy
+								</h5>
+							</div>
 						</div>
 						<div class="col-5 col-lg-4 col-xl-3">
-							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/supply-chain.svg" alt="<?php  ?>">
-							<h5 class="text-center">
-								Supply Chain
-							</h5>
+							<div class="card-body">
+								<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/supply-chain.svg" alt="<?php  ?>">
+								<h5 class="text-center">
+									Supply Chain
+								</h5>
+							</div>
 						</div>
 						<div class="col-5 col-lg-4 col-xl-3">
-							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/insurance.svg" alt="<?php  ?>">
-							<h5 class="text-center">
-								Insurance
-							</h5>
+							<div class="card-body">
+								<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/insurance.svg" alt="<?php  ?>">
+								<h5 class="text-center">
+									Insurance
+								</h5>
+							</div>
 						</div>
 						<div class="col-5 col-lg-4 col-xl-3">
-							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/manufacturing.svg" alt="<?php  ?>">
-							<h5 class="text-center">
-								Manufacturing
-							</h5>
+							<div class="card-body">
+								<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/manufacturing.svg" alt="<?php  ?>">
+								<h5 class="text-center">
+									Manufacturing
+								</h5>
+							</div>
 						</div>
 						<div class="col-5 col-lg-4 col-xl-3">
-							<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/telecommunications.svg" alt="<?php  ?>">
-							<h5>
-								Telecommunications
-							</h5>
+							<div class="card-body">
+								<img class="img-fluid w-25 m-auto d-block" src="<?php echo get_template_directory_uri() ?>/img/icons/telecommunications.svg" alt="<?php  ?>">
+								<h5>
+									Communications
+								</h5>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -190,11 +198,11 @@
 								</p>
 								<p>
 									<span class="small">
-									<em>
-										We're committed to your privacy. KompiTech uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information check out our <a href="/privacy-policy">Privacy Policy</a> 
-									</em>
-								</span>
-							</p>
+										<em>
+											We're committed to your privacy. KompiTech uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information check out our <a href="/privacy-policy">Privacy Policy</a> 
+										</em>
+									</span>
+								</p>
 							</div>
 						</div>
 					</form>
@@ -203,6 +211,43 @@
 			<!-- //.row -->
 		</div>
 		<!-- //.container -->
+		<div class="container-fluid intercession">
+			<div class="row h-100 justify-content-center align-items-center">
+				<div class="col-md-5 img-container">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/test/none.png" alt="" class="img-fluid">
+				</div>
+				<!-- /col-md-6 -->
+				<div class="col-md-5 text-white">
+					<h3>
+						Grow your IT department with the <br> latest technology from KompiTech
+					</h3>
+					<div class="button-wrapper d-flex justify-content-start">
+						<a href="#" class="cta btn bg-white mr-5">
+							<span class="text-blue font-weight-bold text-capitalize">Submit IT Request</span>
+						</a>
+						<a href="#" class="cta btn bg-transparent border-white">
+							<span class="text-white font-weight-bold text-capitalize">Discover BLiTS</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- //.row -->
+		</div>
+		<!-- //.container -->
+		<div class="container-fluid">
+			<div class="row">
+<div class="col-md-5 offset-md-1">
+				<h3>Why KompiTech</h3>
+				<p>
+					At KompiTech we pride ourselves on our long-standing experience when
+					it comes to Information Technology and Swiss Precision. With years of experience
+					in working for the biggest organizations in the world, at KompiTech we develop 
+					products and services that solve the real-life challenges businesses are facing 
+					in the digital age. 
+				</p>
+				<a href="#" class="text-orange">Let's discuss your project now!</a>
+			</div>			</div>
+		</div>
 		
 
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

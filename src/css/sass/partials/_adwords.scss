@@ -1,5 +1,9 @@
 // fc8709
 
+.text-orange {
+    color: #fc8709;
+}
+
 .page-template-adwords-template {
 
     header {
@@ -34,6 +38,17 @@
     &.blockchain {
         .home-hero {
                background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15)), url(img/test/cloud-mountain.jpg);
+        }
+
+        .intercession {
+            background: $kompiblue;
+            height: 270px;
+            margin: 35px 0;
+
+            h3 {
+                font-weight: 300;
+                line-height: 1.25;
+            }
         }
     }
     .img-container {
@@ -87,6 +102,11 @@
         div[class^="col-"] div {
             background: #cccccc;
             border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            height: 140px;
+            max-width: 140px;
+            margin-bottom: 12px;
 
             h5 {
                 font-size: 12px;

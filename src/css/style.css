@@ -8801,6 +8801,9 @@ section {
           stroke: #fff !important;
           fill: #fff !important; } }
 
+.text-orange {
+  color: #fc8709; }
+
 .page-template-adwords-template header {
   background: transparent; }
   .page-template-adwords-template header.header-show {
@@ -8826,6 +8829,14 @@ section {
 
 .page-template-adwords-template.blockchain .home-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15)), url(img/test/cloud-mountain.jpg); }
+
+.page-template-adwords-template.blockchain .intercession {
+  background: #20d6f5;
+  height: 270px;
+  margin: 35px 0; }
+  .page-template-adwords-template.blockchain .intercession h3 {
+    font-weight: 300;
+    line-height: 1.25; }
 
 .page-template-adwords-template .img-container {
   position: relative; }
@@ -8864,7 +8875,12 @@ section {
 
 .page-template-adwords-template .card-row div[class^="col-"] div {
   background: #cccccc;
-  border-radius: 12px; }
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  max-width: 140px;
+  margin-bottom: 12px; }
   .page-template-adwords-template .card-row div[class^="col-"] div h5 {
     font-size: 12px; }
 

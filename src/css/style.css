@@ -8460,6 +8460,10 @@ section {
     padding: 12px 24px;
     float: right; }
 
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+  overflow: visible;
+  font-weight: 500; }
+
 /**
  * partials/subpages
  * ---

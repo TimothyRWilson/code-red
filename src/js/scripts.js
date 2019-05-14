@@ -18,6 +18,17 @@ btt.on('click', function(e) {
 });
 
 
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+      $("header").removeClass("header-show");
+      $('.t-nav-links a').css('color','#fff');
+
+    if (scroll >= 20) {
+        $("header").addClass("header-show");
+        $('.t-nav-links a').css('color','#000');
+    }
+});
+  
 // SLIDEOUT NAV MENU
   //Set vars
 var navBtn = $("#nav-icon");

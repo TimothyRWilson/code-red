@@ -113,8 +113,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- //.confirmations -->
         <div class="col-12 o-nav-links text-left d-flex flex-column justify-content-start pl-0" id="oNav">
          <?php if ( is_home() ): ?>
-         <a class="kompi-text ml-lg-4 p-3" href="#blits">IT Services</a>
-         <a class="kompi-text ml-lg-4 p-3" href="#manblock">Our Technology</a>
+         <a class="kompi-text ml-lg-4 p-3" href="#blits">BLiTS</a>
+         <a class="kompi-text ml-lg-4 p-3" href="#manblock">Manblock</a>
          <a class="kompi-text ml-lg-4 p-3" href="/partners">Partner Ecosystem</a>
          <a class="kompi-text ml-lg-4 p-3" href="https://medium.com/kompitech">Blog</a>
          <a class="kompi-text ml-lg-4 p-3" href="https://portal.kompitech.com/tickets/ts/login/?next=/tickets/ts/dashboard_v2/"><span class="fas fa-user"></span></a>

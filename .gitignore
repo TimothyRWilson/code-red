@@ -3,3 +3,4 @@ node_modules
 dist/
 src/css/maps
 .idea
+src/modules/is-debug.php
